@@ -1,6 +1,7 @@
 # QR code based temporal sync
 
-This repository implements a simple temporal synchronization across multiple cameras
+This repository implements a simple temporal synchronization across multiple cameras.  
+You can easily obtain temporally synchronized videos once each camera detects the timestamp-embedded QR codes.
 
 ![screenshot](./assets/example.png)
 
