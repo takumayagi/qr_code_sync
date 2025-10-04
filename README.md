@@ -2,6 +2,8 @@
 
 This repository implements a simple temporal synchronization across multiple cameras
 
+![screenshot](./assets/example.png)
+
 ## Prerequisites
 The mp4 files should be stored as follows:
 ```
@@ -49,5 +51,6 @@ python sync_videos.py <input_dir_with_mp4> --out_dir <output_dir> --date <record
 ```
 
 ## Tips
+* You may use a display with high frame rate (e.g., 120fps) for maximum accuracy.
 * If the FOV of the videos differs across cameras (e.g., first-person vs. third-person cameras), you may resize the frames to make QR code detection works.
 * You may need undistortion if your video include distortion, which may harms the QR code detection.
